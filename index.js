@@ -19,7 +19,7 @@ bottone1.addEventListener("click", (event) => {
 
       for (const photo of photos) {
         const col = document.createElement("div");
-        col.className = "col";
+        col.className = "col-4";
         col.innerHTML = ` <div class="card">
         <img src=${photo.src.medium} class="card-img-top" alt="...">
         <div class="card-body">
